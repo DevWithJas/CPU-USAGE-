@@ -1,0 +1,5 @@
+#importing Python module 
+import psutil 
+
+cpu =psutil.cpu_count()
+print(cpu)
